@@ -1,0 +1,23 @@
+**********************************
+Validação do primeiro dígito
+**********************************
+
+> Multiplica os 9 primeiros digitos pela sequência decrescente de números
+  de 10 à 2 e soma os resultados
+
+> Depois basta dividir o resultado da soma por 11.
+  O resultado do resto da divisão será diminuido por 11. Então esse será o valor do
+  primeiro dígito.
+  Caso, o resto for igual a 0 ou 1, o digito verificador será igual a 0.
+        
+**********************************
+Validação do segundo dígito
+**********************************
+
+> Multiplica os 10 primeiros digitos pela sequência decrescente de números
+  de 11 à 2 e soma os resultados
+
+  > Depois basta dividir o resultado da soma por 11.
+  O resultado do resto da divisão será diminuido por 11. Então esse será o valor do
+  primeiro dígito.
+  Caso, o resto for igual a 0 ou 1, o digito verificador será igual a 0.
