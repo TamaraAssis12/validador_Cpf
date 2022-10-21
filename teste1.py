@@ -22,9 +22,9 @@ else:
             cpf += str(d) #cpf = cpf + str(d)
     sequencia = cpf == str(cpf[0]) * len(cpf) #sequencia = cpf == str(cpf[0]) * len(cpf)
     if cpf == cpf and not sequencia:    #Se cpf == cpf e não sequencia
-        print('CPF válido') #Imprime CPF válido
+        print('CPF inválido') #Imprime CPF válido
     else: #Se não
-        print('CPF inválido') #Imprime CPF inválido
+        print('CPF Válido') #Imprime CPF inválido
 
 
         
